@@ -1,0 +1,20 @@
+{
+  "name": "hkvideoplayer",
+  "version": "1.0.1",
+  "description": "ionic Video Player For iOS",
+  "cordova": {
+    "id": "com-hk-plugins-videoPlayer",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Hardik Shah",
+  "license": "MIT",
+  "dependencies": {
+    "user": "0.0.0"
+  }
+}
