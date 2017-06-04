@@ -5,7 +5,7 @@ ionic/cordova Plugin to Play native Video Player (SWIFT)
 
 ```
 cordova plugin add cordova-plugin-add-swift-support //Swift Bridging Hook
-cordova plugin add cordova plugin add cordova-plugin-hkvideoplayer
+cordova plugin add cordova-plugin-hkvideoplayer
 ```
 
 ### iOS specifics
@@ -17,18 +17,17 @@ cordova plugin add cordova plugin add cordova-plugin-hkvideoplayer
 
 ```javascript
  	
- 	// Define On Top 
- 	declare var HKVideoPlayer;
+	// Define On Top 
+	declare var HKVideoPlayer;
 
- 	// Play Video from Application Directory or Local Storage
- 	 HKVideoPlayer.play("full path");
+	// Play Video from Application Directory or Local Storage
+	HKVideoPlayer.play("full path");
 
+	// Play Video from Assets
+	HKVideoPlayer.playLocal("video.mp4");
 
- 	// Play Video from Assets
- 	 HKVideoPlayer.playLocal("video.mp4");
-
- 	// Stream Video from Online URL
- 	 HKVideoPlayer.stream("onlineURL");
+	// Stream Video from Online URL
+	HKVideoPlayer.stream("onlineURL");
 
 
 ```
