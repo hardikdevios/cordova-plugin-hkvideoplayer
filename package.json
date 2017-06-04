@@ -1,6 +1,6 @@
 {
   "name": "hkvideoplayer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ionic Video Player For iOS",
   "main": "index.js",
   "cordova": {
