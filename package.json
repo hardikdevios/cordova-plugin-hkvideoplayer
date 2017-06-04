@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-hkvideoplayer",
-  "version": "1.0.9",
+  "version": "2.0",
   "description": "ionic Video Player For iOS",
   "main": "index.js",
   "keywords": [
@@ -8,6 +8,12 @@
     "streaming",
     "ecosystem:cordova",
     "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=4.3.0"
+    }
   ],
   "repository": {
     "type": "git",
