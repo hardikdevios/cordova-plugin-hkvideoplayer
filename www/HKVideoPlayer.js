@@ -4,7 +4,6 @@ var argscheck = require('cordova/argscheck'),
 
 
 var HKVideoPlayer = function() {
-    
 };
 
 HKVideoPlayer.play = function(url) {
