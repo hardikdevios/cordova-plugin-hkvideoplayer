@@ -20,13 +20,11 @@ cordova plugin add cordova-plugin-hkvideoplayer
 // Define On Top 
 declare var HKVideoPlayer;
 
-// Play Video from Application Directory or Local Storage
+// Play Video from Application Directory or Stream Online
 HKVideoPlayer.play("full path");
 
 // Play Video from Assets
 HKVideoPlayer.playLocal("video.mp4");
 
-// Stream Video from Online URL
-HKVideoPlayer.stream("onlineURL");
 
 ```

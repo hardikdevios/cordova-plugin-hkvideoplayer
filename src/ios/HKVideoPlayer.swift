@@ -21,12 +21,13 @@ import AVFoundation
     
     @objc(play:)
     func play(command:CDVInvokedUrlCommand){
-        guard let path = command.argument(at: 0) as? String else {
+        guard let url = command.argument(at: 0) as? String else {
             return
         }
+       
         
-        let videoURL = URL(fileURLWithPath: path)
-        let player = AVPlayer(url: videoURL)
+        let videoURL = URL(string: url)
+        let player = AVPlayer(url: videoURL!)
         self.present(player: player)
         
     }
@@ -43,17 +44,7 @@ import AVFoundation
         self.present(player: player)
         
     }
-    @objc(stream:)
-    func stream(command:CDVInvokedUrlCommand){
-        guard let url = command.argument(at: 0) as? String else {
-            return
-        }
-        
-        let videoURL = URL(string: url)
-        let player = AVPlayer(url: videoURL!)
-        self.present(player: player)
-        
-    }
+
     private func present(player:AVPlayer){
         
         playerViewController.player = player

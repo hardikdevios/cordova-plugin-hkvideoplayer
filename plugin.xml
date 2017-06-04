@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-hkvideoplayer" version="1.0.10" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-hkvideoplayer" version="1.0.12" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>hkvideoplayer</name>
-    <description>Cordova Device Plugin</description>
-    <license>Apache 2.0</license>
-    <keywords>cordova,device</keywords>
+    <description>Cordova Video Plugin</description>
+    <keywords>cordova,Video</keywords>
 
     <js-module src="www/HKVideoPlayer.js" name="HKVideoPlayer" >
         <clobbers target="HKVideoPlayer" />
