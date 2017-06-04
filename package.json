@@ -13,7 +13,7 @@
     "media",
     "streaming",
     "ecosystem:cordova",
-    "cordova-ios",
+    "cordova-ios"
   ],
   "repository": {
     "type": "git",
